@@ -34,7 +34,7 @@ System.out.print("hello");
 	System.out.pintln(maChaine.charAt(3)); 
 	
 //transformer un chiffre en chaine de caracteres 
-
+// toto
 	
 	int aa = 3;
 	String g = ""+aa; // "3"
