@@ -20,10 +20,39 @@ System.out.print("hello");
 	//bool
 	boolean monBoolean = true;  // true ou false 
 
-// char char monChar = 'v';
+// char
+	char monChar = 'v';
+	char monChar2 = 25;
+	int m = 'r';
 	
+	String maChaine = "maChaine";
+	maChaine = null;
+	monChar = null;   // c faux un  type primitif ne peut pas valoir null// 
+	
+	
+	// maChaine = null; 
+	System.out.pintln(maChaine.charAt(3)); 
+	
+//transformer un chiffre en chaine de caracteres 
 
-
+	
+	int aa = 3;
+	String g = ""+aa; // "3"
+	String g = String.valueOf(aa);
+	
+	
+	
+	aa += 5; // aa = aa + 5;
+	
+	aa++;
+	++aa; 
+	
+	
+	boolean bb = 5>3; 
+	
+	boolean bb = (aa!=5) ? false : (1 == 3) ? false : true;
+	
+	
 }
 
 
